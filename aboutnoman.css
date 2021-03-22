@@ -1,0 +1,271 @@
+*{
+    margin:0;
+	padding:0;
+}
+	/* Navbar container */
+.user
+{
+	position:fixed;
+	top:30px;
+	right:40px;
+	color:powderblue;
+	text-align:center;
+}
+.user img:hover{
+	height:40px;
+	width:40px;
+}
+.navbar 
+{
+  overflow: show;
+  font-family: Arial;
+  
+  right:30px;
+  padding: 16px 22px;
+  /*width:100%;*/
+}
+
+/*for links inside the navbar*/
+.navbar a 
+{
+  float: left;
+  font-size: 18px;
+  text-decoration:bold;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  background-color:transparent;
+}
+/*for navbar active menu*/
+.navbar a.active 
+{
+ 
+ 
+  color:powderblue;
+}
+/*for the dropdown container */
+.dropdown {
+  float: left;
+  overflow: hidden;
+  
+}
+
+/*for dropdown button */
+.dropdown .dropbtn 
+{
+  font-size: 18px;
+
+  text-decoration:bold;
+  border: none;
+  outline: none;
+  padding: 14px 16px;
+  color:white;
+  background-color:transparent;
+  
+ 
+  
+}
+.dropdown .loginbtn 
+{
+  font-size: 18px;
+  border: none;
+  outline: none;
+  padding: 30px;
+  background:url(img/menu_icon.png);
+  top: 10px;
+ 
+  
+ 
+  
+}
+
+/* for adding a background color to navbar links on hover  when hover then change the colo*/
+.navbar a:hover, .dropdown:hover .dropbtn 
+{
+  color:powderblue;
+}
+
+/* dropdown content hidden by default by using none */
+.dropdown-content 
+{
+  display: none;
+  position: absolute;
+  background-color:transparent;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(40, 180, 99);
+  z-index: 1;
+}
+
+/* links inside the dropdown */
+.dropdown-content a 
+{
+  float: none;
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add background color to dropdown links on hover when hover dorpdown item chage background*/
+.dropdown-content a:hover 
+{
+  background-color:transparent;
+}
+
+/*show the dropdown menu on hover */
+.dropdown:hover .dropdown-content 
+{
+  display: block;
+}
+	
+	.description
+	{
+		position:absolute;
+		text-align:center;
+		top:10px;
+		text-decoration:bold;
+		width:600px;
+		height:400px;
+		margin:20% 30%;
+		font-size:20px;
+		
+	}
+
+	
+
+header
+{
+	background:url(img/background3.jpg);
+	height:120%;
+	width:100%;
+}
+.sk_des1
+{
+	position:absolute;
+	top:130px;
+	left:600px;
+	color:white;
+	text-style:italic;
+}
+.sk
+{
+	position:absolute;
+	top:130px;
+	left:90px;
+	text-style:bold;
+	color:white;
+
+}
+
+.sk img
+{
+	border-radius: 50%;
+}
+.sk_des1 button
+{
+	background-color:#34b1eb;
+	text-align:center;
+	width:150px;
+	height:25px;
+	border-radius:25px;
+}
+.sk_des1 button a
+{
+	color:white;
+	text-decoration:none;
+}
+
+.hobies
+{
+	position:absolute;
+	top:414px;
+	left:770px;
+	text-style:bold;
+	color:white;
+}
+.hobies button
+{
+	background-color:#34b1eb;
+	text-align:center;
+	width:150px;
+	height:25px;
+	border-radius:25px;
+}
+.hobies button a
+{
+   color:white;
+   text-decoration:none
+}
+
+.fav
+{
+	position:absolute;
+	top:414px;
+	left:940px;
+	text-style:bold;
+	color:white;
+}
+.fav button
+{
+	background-color:#34b1eb;
+	text-align:center;
+	width:150px;
+	height:25px;
+	border-radius:25px;
+}
+.fav button a
+{
+   color:white;
+   text-decoration:none
+}
+
+.instagram
+{
+	position:absolute;
+	top:460px;
+	left:770px;
+	text-style:bold;
+	color:white;
+}
+.instagram button
+{
+	background-color:#34b1eb;
+	text-align:center;
+	width:150px;
+	height:25px;
+	border-radius:25px;
+}
+.instagram button a
+{
+   color:white;
+   text-decoration:none
+}
+
+.fb
+{
+	position:absolute;
+	top:460px;
+	left:600px;
+	text-style:bold;
+	color:white;
+}
+.fb button
+{
+	background-color:#34b1eb;
+	text-align:center;
+	width:150px;
+	height:25px;
+	border-radius:25px;
+}
+.fb button a
+{
+   color:white;
+   text-decoration:none
+}
+
+
+
+
+

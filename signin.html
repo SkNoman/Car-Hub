@@ -1,0 +1,104 @@
+<html>
+<body>
+<head>
+    <title>Sign In</title>
+	<style>
+	  .logoimage 
+	  {
+	  position: fixed;
+	  right: 670px;
+	  top: 150;
+	  }
+	  .login
+	  {
+	  position:fixed;
+	  right:610px;
+	  top:400px;
+	  }
+	  .login input
+	  {
+	  background-color:white;
+	  color:black;
+	  text-align:center;
+	  height:30px;
+	  width:300px;
+	  border-style:solid;
+	  border-radius: 25px;
+	  }
+	  .login button
+	  {
+	  border-radius: 25px;
+	  background-color:#201280;
+	  color:white;
+	  height:30px;
+	  width:300px;
+	  border-style:solid;
+	  }
+	</style>  
+	<link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<header>
+
+<div class="head">
+    <div class="navbar">
+	   <div class="dropdown">
+			<button class="loginbtn"></button>
+			<div class="dropdown-content">
+			  <a href="signin.html">Sign In</a>
+			  <a href="signup.html">Sign Up</a>
+			  <a href="demo.html">My Cart</a>
+			</div>
+	    </div>
+	    <a href="home.html">Home</a>
+	    <div class="dropdown">
+			<button class="dropbtn">Our Cars▼
+			</button>
+			<div class="dropdown-content">
+			  <a href="audi.html">Audi</a>
+			  <a href="bmw.html">BMW</a>
+			  <a href="mercedes.html">Mercedes Benz</a>
+			  <a href="volkswaen.html">Volkswagen</a>
+			</div>
+	    </div>
+	    <div class="dropdown">
+		<button class="dropbtn">Our Showrooms▼
+			</button>
+			<div class="dropdown-content">
+			  <a href="demo.html">Dhanmondi</a>
+			  <a href="demo.html">Gulshan</a>
+			  <a href="demo.html">Mirpur</a>
+			  <a href="demo.html">Chittagong</a>
+			</div>
+	    </div>
+	    <div class="dropdown">
+		<button class="dropbtn">Services▼</button>
+			<div class="dropdown-content">
+			  <a href="demo.html">Sell Old Cars</a>
+			  <a href="demo.html">Paint Cars</a>
+			  <a href="demo.html">Maintanance</a>
+			</div>
+	    </div>
+	   <a href="about.html">About Us</a>
+    </div>
+</div>
+
+
+<div class="logoimage">
+	<img src="img/c_logo.png" alt="sk Noman's Logo">
+</div>
+
+<div class="login">
+	<form metdhod="post" action="home.html">
+
+      <input type="text" placeholder="Enter Username" name="uname" required><br><br>
+
+      <input type="password" placeholder="Enter Password" name="psw" required><br><br>
+        
+      <button type="submit"><b>Sign In</b></button>
+	</form>
+</div>
+
+
+</header>
+</body>
+</html>	

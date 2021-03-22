@@ -1,0 +1,12 @@
+Assalamualaikum Maam !
+
+Maam This project content will show perfectly on 15.6 & 14 inch displays.
+I tried to use "%" in the contents but the smaller display doesn't show perfectly.
+I should use Bootstrap but bootstrap is not in the project requirement.
+
+And "home.html" is the index file.
+
+Name:Sk Noman
+Id : 173-15-10461
+
+Thank you Ma'am.
